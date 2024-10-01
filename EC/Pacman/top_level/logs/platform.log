@@ -1,0 +1,162 @@
+TRACE::2024-08-02.01:32:04::SCWPlatform::Trying to open the hw design at C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform::DSA given C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform::DSA absoulate path C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform::DSA directory C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw
+TRACE::2024-08-02.01:32:04::SCWPlatform:: Platform Path C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-08-02.01:32:04::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-08-02.01:32:04::SCWPlatform::Opened new HwDB with name top_level_0
+TRACE::2024-08-02.01:32:04::SCWWriter::formatted JSON is {
+	"platformName":	"top_level",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"top_level",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/top_level.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2024-08-02.01:32:04::SCWWriter::formatted JSON is {
+	"platformName":	"top_level",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"top_level",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/top_level.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"top_level",
+	"systems":	[{
+			"systemName":	"top_level",
+			"systemDesc":	"top_level",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"top_level"
+		}]
+}
+TRACE::2024-08-02.01:32:04::SCWPlatform::Boot application domains not present, creating them
+TRACE::2024-08-02.01:32:04::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2024-08-02.01:32:04::SCWWriter::formatted JSON is {
+	"platformName":	"top_level",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"top_level",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/top_level.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"top_level",
+	"systems":	[{
+			"systemName":	"top_level",
+			"systemDesc":	"top_level",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"top_level"
+		}]
+}
+TRACE::2024-08-02.01:32:04::SCWWriter::formatted JSON is {
+	"platformName":	"top_level",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"top_level",
+	"platHandOff":	"<platformDir>.xsa",
+	"platIntHandOff":	"<platformDir>/hw/top_level.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"top_level",
+	"systems":	[{
+			"systemName":	"top_level",
+			"systemDesc":	"top_level",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"top_level"
+		}]
+}
+TRACE::2024-08-02.01:32:04::SCWPlatform::Trying to open the hw design at C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform::DSA given C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform::DSA absoulate path C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform::DSA directory C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw
+TRACE::2024-08-02.01:32:04::SCWPlatform:: Platform Path C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-08-02.01:32:04::SCWPlatform::Trying to set the existing hwdb with name top_level_0
+TRACE::2024-08-02.01:32:04::SCWPlatform::Opened existing hwdb top_level_0
+TRACE::2024-08-02.01:32:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-02.01:32:04::SCWPlatform::Trying to open the hw design at C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform::DSA given C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform::DSA absoulate path C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform::DSA directory C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw
+TRACE::2024-08-02.01:32:04::SCWPlatform:: Platform Path C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-08-02.01:32:04::SCWPlatform::Trying to set the existing hwdb with name top_level_0
+TRACE::2024-08-02.01:32:04::SCWPlatform::Opened existing hwdb top_level_0
+TRACE::2024-08-02.01:32:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-02.01:32:04::SCWDomain::checking for install qemu data   : 
+TRACE::2024-08-02.01:32:04::SCWPlatform::Trying to open the hw design at C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform::DSA given C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform::DSA absoulate path C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform::DSA directory C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw
+TRACE::2024-08-02.01:32:04::SCWPlatform:: Platform Path C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-08-02.01:32:04::SCWPlatform::Trying to set the existing hwdb with name top_level_0
+TRACE::2024-08-02.01:32:04::SCWPlatform::Opened existing hwdb top_level_0
+TRACE::2024-08-02.01:32:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-02.01:32:04::SCWPlatform::Trying to open the hw design at C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform::DSA given C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform::DSA absoulate path C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform::DSA directory C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw
+TRACE::2024-08-02.01:32:04::SCWPlatform:: Platform Path C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-08-02.01:32:04::SCWPlatform::Trying to set the existing hwdb with name top_level_0
+TRACE::2024-08-02.01:32:04::SCWPlatform::Opened existing hwdb top_level_0
+TRACE::2024-08-02.01:32:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-02.01:32:04::SCWPlatform::Trying to open the hw design at C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform::DSA given C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform::DSA absoulate path C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform::DSA directory C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw
+TRACE::2024-08-02.01:32:04::SCWPlatform:: Platform Path C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:04::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-08-02.01:32:04::SCWPlatform::Trying to set the existing hwdb with name top_level_0
+TRACE::2024-08-02.01:32:04::SCWPlatform::Opened existing hwdb top_level_0
+TRACE::2024-08-02.01:32:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-08-02.01:32:04::SCWMssOS::Checking the sw design at  C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-08-02.01:32:04::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-08-02.01:32:04::SCWMssOS::No sw design opened at  C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-08-02.01:32:04::SCWMssOS::mss does not exists at C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-08-02.01:32:04::SCWMssOS::Creating sw design at  C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-08-02.01:32:04::SCWMssOS::Adding the swdes entry, created swdb C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-08-02.01:32:04::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-08-02.01:32:04::SCWMssOS::Writing mss at C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-08-02.01:32:04::SCWMssOS::Completed writing the mss file at C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-08-02.01:32:04::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-08-02.01:32:04::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-08-02.01:32:04::SCWMssOS::Completed writing the mss file at C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-08-02.01:32:04::SCWMssOS::Forcing BSP Sources regeneration.
+ERROR::2024-08-02.01:32:05::SCWMssOS::Failed to generate the bsp sources for domain.standalone_microblaze_0
+TRACE::2024-08-02.01:32:06::SCWPlatform::Clearing the existing platform
+TRACE::2024-08-02.01:32:06::SCWSystem::Clearing the existing sysconfig
+TRACE::2024-08-02.01:32:06::SCWSystem::Clearing the domains completed.
+TRACE::2024-08-02.01:32:06::SCWPlatform::Clearing the opened hw db.
+TRACE::2024-08-02.01:32:06::SCWPlatform::DSA given C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:06::SCWPlatform::DSA absoulate path C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa
+TRACE::2024-08-02.01:32:06::SCWPlatform:: Platform location is C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw

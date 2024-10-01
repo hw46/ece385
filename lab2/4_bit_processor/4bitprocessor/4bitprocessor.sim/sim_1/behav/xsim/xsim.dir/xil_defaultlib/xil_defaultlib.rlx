@@ -1,0 +1,14 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/wht20/Desktop/ece385/4bitprocessor/4bitprocessor.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/design_source/Control.sv,1704005712,systemVerilog,C:/Users/wht20/Desktop/ece385/design_source/HexDriver.sv;C:/Users/wht20/Desktop/ece385/design_source/Processor.sv;C:/Users/wht20/Desktop/ece385/design_source/Reg_4.sv;C:/Users/wht20/Desktop/ece385/design_source/Register_unit.sv;C:/Users/wht20/Desktop/ece385/design_source/Router.sv;C:/Users/wht20/Desktop/ece385/design_source/Synchronizers.sv;C:/Users/wht20/Desktop/ece385/design_source/compute.sv;C:/Users/wht20/Desktop/ece385/sim_sources/testbench.sv,C:/Users/wht20/Desktop/ece385/design_source/HexDriver.sv,,$unit_Control_sv_1600465912;control,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/design_source/HexDriver.sv,1697931938,systemVerilog,,C:/Users/wht20/Desktop/ece385/design_source/Processor.sv,,HexDriver,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/design_source/Processor.sv,1706285871,systemVerilog,,C:/Users/wht20/Desktop/ece385/design_source/Reg_4.sv,,Processor,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/design_source/Reg_4.sv,1704005774,systemVerilog,,C:/Users/wht20/Desktop/ece385/design_source/Register_unit.sv,,reg_4,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/design_source/Register_unit.sv,1704005806,systemVerilog,,C:/Users/wht20/Desktop/ece385/design_source/Router.sv,,register_unit,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/design_source/Router.sv,1704005904,systemVerilog,,C:/Users/wht20/Desktop/ece385/design_source/Synchronizers.sv,,router,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/design_source/Synchronizers.sv,1706310422,systemVerilog,,C:/Users/wht20/Desktop/ece385/design_source/compute.sv,,sync_debounce,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/design_source/compute.sv,1704006160,systemVerilog,,C:/Users/wht20/Desktop/ece385/sim_sources/testbench.sv,,compute,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/sim_sources/testbench.sv,1706638588,systemVerilog,,,,testbench,,uvm,,,,,,

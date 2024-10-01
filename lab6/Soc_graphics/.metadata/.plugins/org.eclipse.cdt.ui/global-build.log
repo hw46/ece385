@@ -1,0 +1,236 @@
+03:49:36 **** Build of project mb_usb_hdmi_top ****
+buildplatform.bat 59891 mb_usb_hdmi_top  
+'\gnu\microblaze\lin\bin\' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'\gnu\microblaze\nt\bin\' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'\gnuwin\bin\' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+XSDB Server Channel: tcfchan#1
+Reading the platform  : "mb_usb_hdmi_top"
+D:/Vitis/2024.1/gnu/microblaze/nt
+ERROR: [Hsi 55-1562] Source directory C:/Users/wht20/Desktop/ece385/lab6/Soc_graphics/mb_usb_hdmi_top/hw/drivers\hdmi_text_controller_v1_0/src does not exist or is not a directory.
+
+couldn't execute "mb-ar": no such file or directory
+
+ERROR: [Hsi 55-1545] Problem running tcl command ::sw_standalone_v9_1::post_generate : couldn't execute "mb-ar": no such file or directory
+    while executing
+"exec $archiver -d $libgloss_a _interrupt_handler.o"
+Failed to generate the platform.
+    (procedure "::sw_standalone_v9_1::post_generate" line 18)
+    invoked from within
+"::sw_standalone_v9_1::post_generate standalone"
+
+Reason: Failed to generate the bsp sources for domain.standalone_microblaze_0
+
+ERROR: [Hsi 55-1443] Error(s) while running TCL procedure post_generate()
+
+Details: ERROR: [Hsi 55-1562] Source directory C:/Users/wht20/Desktop/ece385/lab6/Soc_graphics/mb_usb_hdmi_top/hw/drivers\hdmi_text_controller_v1_0/src does not exist or is not a directory.
+
+couldnt execute "mb-ar": no such file or directory
+
+ERROR: [Hsi 55-1545] Problem running tcl command ::sw_standalone_v9_1::post_generate : couldnt execute "mb-ar": no such file or directory
+    while executing
+"exec $archiver -d $libgloss_a _interrupt_handler.o"
+    (procedure "::sw_standalone_v9_1::post_generate" line 18)
+    invoked from within
+"::sw_standalone_v9_1::post_generate standalone"
+
+ERROR: [Hsi 55-1443] Error(s) while running TCL procedure post_generate()
+
+    invoked from within
+"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{platform active mb_usb_hdmi_top; platform generate }}}"
+    (procedure "::tcf::send_command" line 4)
+    invoked from within
+"tcf send_command $::xsdb::curchan xsdb eval s es [list "platform active $PLATFORM_NAME; platform generate $target"]"
+    invoked from within
+"if { $iswindows == 1 } {    
+
+    set XSDB_PORT [lindex $argv 0]
+    set PLATFORM_NAME [lindex $argv 1]
+    set arglen [llength $argv]
+    set lastind..."
+    (file "D:/Vitis/2024.1\scripts\vitis\util\buildplatform.tcl" line 11)
+03:49:40 **** Build of configuration Debug for project Soc_design_text ****
+make all 
+'Building file: ../src/hdmi_text_controller.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hdmi_text_controller.o" -IC:/Users/wht20/Desktop/ece385/lab6/Soc_graphics/mb_usb_hdmi_top/export/mb_usb_hdmi_top/sw/mb_usb_hdmi_top/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/hdmi_text_controller.d" -MT"src/hdmi_text_controller.o" -o "src/hdmi_text_controller.o" "../src/hdmi_text_controller.c"
+In file included from ../src/hdmi_text_controller.c:4:
+../src/hdmi_text_controller.h:6:10: fatal error: xil_types.h: No such file or directory
+    6 | #include "xil_types.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/hdmi_text_controller.o] Error 1
+03:54:37 **** Clean-only build of configuration Debug for project Soc_design_text ****
+make clean 
+rm -rf  ./src/hdmi_text_controller.o ./src/helloworld.o ./src/platform.o  ./src/hdmi_text_controller.d ./src/helloworld.d ./src/platform.d  Soc_design_text.elf.size  Soc_design_text.elf
+' '
+03:54:37 **** Clean-only build of configuration Debug for project Soc_design_text_system ****
+make clean 
+rm -rf ./_sds
+rm -rf package
+rm -f system.bif
+03:54:38 **** Clean-only build of project mb_usb_hdmi_top ****
+buildplatform.bat 59891 mb_usb_hdmi_top clean 
+'\gnu\microblaze\lin\bin\' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'\gnu\microblaze\nt\bin\' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'\gnuwin\bin\' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+XSDB Server Channel: tcfchan#2
+Cleaning the BSP for domain  - standalone_microblaze_0
+make: *** No rule to make target 'clean'.  Stop.
+Failed to do platform clean.
+    invoked from within
+"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{platform active mb_usb_hdmi_top; platform clean}}}"
+    (procedure "::tcf::send_command" line 4)
+    invoked from within
+"tcf send_command $::xsdb::curchan xsdb eval s es [list "platform active $PLATFORM_NAME; platform clean"]"
+    invoked from within
+"if { $iswindows == 1 } {    
+
+    set XSDB_PORT [lindex $argv 0]
+    set PLATFORM_NAME [lindex $argv 1]
+    set arglen [llength $argv]
+    set lastind..."
+    (file "D:/Vitis/2024.1\scripts\vitis\util\buildplatform.tcl" line 11)
+03:54:48 **** Build of project mb_usb_hdmi_top ****
+buildplatform.bat 59891 mb_usb_hdmi_top  
+'\gnu\microblaze\lin\bin\' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'\gnu\microblaze\nt\bin\' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'\gnuwin\bin\' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+XSDB Server Channel: tcfchan#3
+D:/Vitis/2024.1/gnu/microblaze/nt
+ERROR: [Hsi 55-1562] Source directory C:/Users/wht20/Desktop/ece385/lab6/Soc_graphics/mb_usb_hdmi_top/hw/drivers\hdmi_text_controller_v1_0/src does not exist or is not a directory.
+
+couldn't execute "mb-ar": no such file or directory
+
+ERROR: [Hsi 55-1545] Problem running tcl command ::sw_standalone_v9_1::post_generate : couldn't execute "mb-ar": no such file or directory
+    while executing
+"exec $archiver -d $libgloss_a _interrupt_handler.o"
+    (procedure "::sw_standalone_v9_1::post_generate" line 18)
+    invoked from within
+Failed to generate the platform.
+"::sw_standalone_v9_1::post_generate standalone"
+
+ERROR: [Hsi 55-1443] Error(s) while running TCL procedure post_generate()
+
+Reason: Failed to generate the bsp sources for domain.standalone_microblaze_0
+
+Details: ERROR: [Hsi 55-1562] Source directory C:/Users/wht20/Desktop/ece385/lab6/Soc_graphics/mb_usb_hdmi_top/hw/drivers\hdmi_text_controller_v1_0/src does not exist or is not a directory.
+
+couldnt execute "mb-ar": no such file or directory
+
+ERROR: [Hsi 55-1545] Problem running tcl command ::sw_standalone_v9_1::post_generate : couldnt execute "mb-ar": no such file or directory
+    while executing
+"exec $archiver -d $libgloss_a _interrupt_handler.o"
+    (procedure "::sw_standalone_v9_1::post_generate" line 18)
+    invoked from within
+"::sw_standalone_v9_1::post_generate standalone"
+
+ERROR: [Hsi 55-1443] Error(s) while running TCL procedure post_generate()
+
+    invoked from within
+"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{platform active mb_usb_hdmi_top; platform generate }}}"
+    (procedure "::tcf::send_command" line 4)
+    invoked from within
+"tcf send_command $::xsdb::curchan xsdb eval s es [list "platform active $PLATFORM_NAME; platform generate $target"]"
+    invoked from within
+"if { $iswindows == 1 } {    
+
+    set XSDB_PORT [lindex $argv 0]
+    set PLATFORM_NAME [lindex $argv 1]
+    set arglen [llength $argv]
+    set lastind..."
+    (file "D:/Vitis/2024.1\scripts\vitis\util\buildplatform.tcl" line 11)
+03:58:39 **** Clean-only build of configuration Debug for project Soc_design_text ****
+make clean 
+rm -rf  ./src/hdmi_text_controller.o ./src/helloworld.o ./src/platform.o  ./src/hdmi_text_controller.d ./src/helloworld.d ./src/platform.d  Soc_design_text.elf.size  Soc_design_text.elf
+' '
+03:58:40 **** Clean-only build of configuration Debug for project Soc_design_text_system ****
+make clean 
+rm -rf ./_sds
+rm -rf package
+rm -f system.bif
+03:58:40 **** Clean-only build of project mb_usb_hdmi_top ****
+buildplatform.bat 59987 mb_usb_hdmi_top clean 
+'\gnu\microblaze\lin\bin\' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'\gnu\microblaze\nt\bin\' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'\gnuwin\bin\' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+XSDB Server Channel: tcfchan#1
+Cleaning the BSP for domain  - standalone_microblaze_0
+make: *** No rule to make target 'clean'.  Stop.
+Failed to do platform clean.
+    invoked from within
+"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{platform active mb_usb_hdmi_top; platform clean}}}"
+    (procedure "::tcf::send_command" line 4)
+    invoked from within
+"tcf send_command $::xsdb::curchan xsdb eval s es [list "platform active $PLATFORM_NAME; platform clean"]"
+    invoked from within
+"if { $iswindows == 1 } {    
+
+    set XSDB_PORT [lindex $argv 0]
+    set PLATFORM_NAME [lindex $argv 1]
+    set arglen [llength $argv]
+    set lastind..."
+    (file "D:/Vitis/2024.1\scripts\vitis\util\buildplatform.tcl" line 11)
+03:58:46 **** Build of project mb_usb_hdmi_top ****
+buildplatform.bat 59987 mb_usb_hdmi_top  
+'\gnu\microblaze\lin\bin\' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'\gnu\microblaze\nt\bin\' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'\gnuwin\bin\' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+XSDB Server Channel: tcfchan#2
+D:/Vitis/2024.1/gnu/microblaze/nt
+ERROR: [Hsi 55-1562] Source directory C:/Users/wht20/Desktop/ece385/lab6/Soc_graphics/mb_usb_hdmi_top/hw/drivers\hdmi_text_controller_v1_0/src does not exist or is not a directory.
+
+couldn't execute "mb-ar": no such file or directory
+
+ERROR: [Hsi 55-1545] Problem running tcl command ::sw_standalone_v9_1::post_generate : couldn't execute "mb-ar": no such file or directory
+    while executing
+"exec $archiver -d $libgloss_a _interrupt_handler.o"
+    (procedure "::sw_standalone_v9_1::post_generate" line 18)
+    invoked from within
+Failed to generate the platform.
+"::sw_standalone_v9_1::post_generate standalone"
+
+Reason: Failed to generate the bsp sources for domain.standalone_microblaze_0
+
+ERROR: [Hsi 55-1443] Error(s) while running TCL procedure post_generate()
+
+Details: ERROR: [Hsi 55-1562] Source directory C:/Users/wht20/Desktop/ece385/lab6/Soc_graphics/mb_usb_hdmi_top/hw/drivers\hdmi_text_controller_v1_0/src does not exist or is not a directory.
+
+couldnt execute "mb-ar": no such file or directory
+
+ERROR: [Hsi 55-1545] Problem running tcl command ::sw_standalone_v9_1::post_generate : couldnt execute "mb-ar": no such file or directory
+    while executing
+"exec $archiver -d $libgloss_a _interrupt_handler.o"
+    (procedure "::sw_standalone_v9_1::post_generate" line 18)
+    invoked from within
+"::sw_standalone_v9_1::post_generate standalone"
+
+ERROR: [Hsi 55-1443] Error(s) while running TCL procedure post_generate()
+
+    invoked from within
+"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{platform active mb_usb_hdmi_top; platform generate }}}"
+    (procedure "::tcf::send_command" line 4)
+    invoked from within
+"tcf send_command $::xsdb::curchan xsdb eval s es [list "platform active $PLATFORM_NAME; platform generate $target"]"
+    invoked from within
+"if { $iswindows == 1 } {    
+
+    set XSDB_PORT [lindex $argv 0]
+    set PLATFORM_NAME [lindex $argv 1]
+    set arglen [llength $argv]
+    set lastind..."
+    (file "D:/Vitis/2024.1\scripts\vitis\util\buildplatform.tcl" line 11)

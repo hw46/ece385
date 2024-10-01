@@ -1,0 +1,7 @@
+03:58:39 **** Clean-only build of configuration Debug for project Soc_design_text ****
+make clean 
+rm -rf  ./src/hdmi_text_controller.o ./src/helloworld.o ./src/platform.o  ./src/hdmi_text_controller.d ./src/helloworld.d ./src/platform.d  Soc_design_text.elf.size  Soc_design_text.elf
+' '
+
+03:58:40 Build Finished (took 720ms)
+

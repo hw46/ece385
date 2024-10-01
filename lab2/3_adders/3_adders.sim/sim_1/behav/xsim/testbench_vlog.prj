@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../3adders/adder_design_source/hex_driver.sv" \
+"../../../../../3adders/adder_design_source/load_reg.sv" \
+"../../../../../3adders/adder_design_source/negedge_detector.sv" \
+"../../../../../3adders/adder_design_source/sync_debounce.sv" \
+"../../../../../3adders/adder_design_source/adder_toplevel.sv" \
+"../../../../../3adders/select_adder.sv" \
+"../../../../../3adders/ripple_adder.sv" \
+"../../../../../3adders/lookahead_adder.sv" \
+"../../../../3_adders.srcs/sim_1/new/testbench.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

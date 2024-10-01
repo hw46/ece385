@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Jul 18 17:34:12 2024
+# Process ID: 22880
+# Current directory: C:/Users/wht20/Desktop/ece385/lab5/Soc/Soc.runs/mb_block_ilmb_v10_0_synth_1
+# Command line: vivado.exe -log mb_block_ilmb_v10_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb_block_ilmb_v10_0.tcl
+# Log file: C:/Users/wht20/Desktop/ece385/lab5/Soc/Soc.runs/mb_block_ilmb_v10_0_synth_1/mb_block_ilmb_v10_0.vds
+# Journal file: C:/Users/wht20/Desktop/ece385/lab5/Soc/Soc.runs/mb_block_ilmb_v10_0_synth_1\vivado.jou
+# Running On        :wht
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :13th Gen Intel(R) Core(TM) i5-13500H
+# CPU Frequency     :3187 MHz
+# CPU Physical cores:12
+# CPU Logical cores :16
+# Host memory       :34086 MB
+# Swap memory       :5100 MB
+# Total Virtual     :39187 MB
+# Available Virtual :22631 MB
+#-----------------------------------------------------------
+source mb_block_ilmb_v10_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 500.836 ; gain = 200.766
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: mb_block_ilmb_v10_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 82f114bfb7328487 to dir: C:/Users/wht20/Desktop/ece385/lab5/Soc/Soc.runs/mb_block_ilmb_v10_0_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/wht20/Desktop/ece385/lab5/Soc/Soc.cache/ip/2024.1/8/2/82f114bfb7328487/mb_block_dlmb_v10_0.dcp to C:/Users/wht20/Desktop/ece385/lab5/Soc/Soc.runs/mb_block_ilmb_v10_0_synth_1/mb_block_ilmb_v10_0.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/wht20/Desktop/ece385/lab5/Soc/Soc.cache/ip/2024.1/8/2/82f114bfb7328487/mb_block_dlmb_v10_0_sim_netlist.v to C:/Users/wht20/Desktop/ece385/lab5/Soc/Soc.runs/mb_block_ilmb_v10_0_synth_1/mb_block_ilmb_v10_0_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/wht20/Desktop/ece385/lab5/Soc/Soc.cache/ip/2024.1/8/2/82f114bfb7328487/mb_block_dlmb_v10_0_sim_netlist.vhdl to C:/Users/wht20/Desktop/ece385/lab5/Soc/Soc.runs/mb_block_ilmb_v10_0_synth_1/mb_block_ilmb_v10_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/wht20/Desktop/ece385/lab5/Soc/Soc.cache/ip/2024.1/8/2/82f114bfb7328487/mb_block_dlmb_v10_0_stub.v to C:/Users/wht20/Desktop/ece385/lab5/Soc/Soc.runs/mb_block_ilmb_v10_0_synth_1/mb_block_ilmb_v10_0_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file c:/Users/wht20/Desktop/ece385/lab5/Soc/Soc.cache/ip/2024.1/8/2/82f114bfb7328487/mb_block_dlmb_v10_0_stub.vhdl to C:/Users/wht20/Desktop/ece385/lab5/Soc/Soc.runs/mb_block_ilmb_v10_0_synth_1/mb_block_ilmb_v10_0_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP mb_block_ilmb_v10_0, cache-ID = 82f114bfb7328487.
+INFO: [Common 17-206] Exiting Vivado at Thu Jul 18 17:34:20 2024...

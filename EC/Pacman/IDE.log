@@ -1,0 +1,47 @@
+01:28:44 DEBUG : Logs will be stored at 'C:/Users/wht20/Desktop/ece385/EC/Pacman/IDE.log'.
+01:28:51 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\wht20\Desktop\ece385\EC\Pacman\temp_xsdb_launch_script.tcl
+01:28:51 INFO  : Platform repository initialization has completed.
+01:28:51 INFO  : Registering command handlers for Vitis TCF services
+01:28:51 ERROR : (XSDB Server)'\gnu\microblaze\lin\bin\' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+01:28:51 ERROR : (XSDB Server)'\gnu\microblaze\nt\bin\' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+01:28:51 ERROR : (XSDB Server)'\gnuwin\bin\' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+01:28:53 INFO  : XSCT server has started successfully.
+01:28:53 INFO  : plnx-install-location is set to ''
+01:28:53 INFO  : Successfully done setting XSCT server connection channel  
+01:28:53 INFO  : Successfully done query RDI_DATADIR 
+01:28:53 INFO  : Successfully done setting workspace for the tool. 
+01:29:50 ERROR : (XSDB Server)ERROR: [Hsi 55-1545] Problem running tcl command ::sw_standalone_v9_1::post_generate : couldn't execute "mb-ar": no such file or directory
+    while executing
+"exec $archiver -d $libgloss_a _interrupt_handler.o"
+    (procedure "::sw_standalone_v9_1::post_generate" line 18)
+    invoked from within
+"::sw_standalone_v9_1::post_generate standalone"
+ERROR: [Hsi 55-1443] Error(s) while running TCL procedure post_generate()
+
+01:29:51 ERROR : Failed to create platform for application project
+Reason: An exception occurred while trying to add domain.
+01:29:51 WARN  : An unexpected exception occurred in the module 'platform project logging'
+01:29:51 INFO  : Platform creation cancelled by the user.
+01:32:04 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/hw/top_level.xsa is already opened
+
+01:32:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1545] Problem running tcl command ::sw_standalone_v9_1::post_generate : couldn't execute "mb-ar": no such file or directory
+    while executing
+"exec $archiver -d $libgloss_a _interrupt_handler.o"
+    (procedure "::sw_standalone_v9_1::post_generate" line 18)
+    invoked from within
+"::sw_standalone_v9_1::post_generate standalone"
+ERROR: [Hsi 55-1443] Error(s) while running TCL procedure post_generate()
+
+01:32:06 ERROR : Failed to create platform for application project
+Reason: An exception occurred while trying to add domain.
+01:32:06 WARN  : An unexpected exception occurred in the module 'platform project logging'
+01:32:06 WARN  : Failed to delete platform project 'top_level'.
+01:32:06 INFO  : Platform creation cancelled by the user.
+03:09:15 ERROR : Failed to read platform from project 'top_level'.
+Reason: Failed to execute command 'platform read {C:/Users/wht20/Desktop/ece385/EC/Pacman/top_level/platform.spr}'. Click on details for more information.

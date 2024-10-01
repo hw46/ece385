@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Jul 18 18:18:48 2024
+# Process ID: 20336
+# Current directory: C:/Users/wht20/Desktop/ece385/lab5/Soc/Soc.runs/hdmi_tx_0_synth_1
+# Command line: vivado.exe -log hdmi_tx_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source hdmi_tx_0.tcl
+# Log file: C:/Users/wht20/Desktop/ece385/lab5/Soc/Soc.runs/hdmi_tx_0_synth_1/hdmi_tx_0.vds
+# Journal file: C:/Users/wht20/Desktop/ece385/lab5/Soc/Soc.runs/hdmi_tx_0_synth_1\vivado.jou
+# Running On        :wht
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :13th Gen Intel(R) Core(TM) i5-13500H
+# CPU Frequency     :3187 MHz
+# CPU Physical cores:12
+# CPU Logical cores :16
+# Host memory       :34086 MB
+# Swap memory       :5100 MB
+# Total Virtual     :39187 MB
+# Available Virtual :22135 MB
+#-----------------------------------------------------------
+source hdmi_tx_0.tcl -notrace

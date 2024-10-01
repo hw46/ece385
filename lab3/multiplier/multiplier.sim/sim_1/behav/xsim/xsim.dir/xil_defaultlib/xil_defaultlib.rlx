@@ -1,0 +1,12 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/wht20/Desktop/ece385/lab3/files/mControl.sv,1719519825,systemVerilog,C:/Users/wht20/Desktop/ece385/lab3/files/mHexDriver.sv;C:/Users/wht20/Desktop/ece385/lab3/files/mProcessor.sv;C:/Users/wht20/Desktop/ece385/lab3/files/mReg_4.sv;C:/Users/wht20/Desktop/ece385/lab3/files/mSynchronizers.sv;C:/Users/wht20/Desktop/ece385/lab3/files/mripple_adder.sv;C:/Users/wht20/Desktop/ece385/lab3/files/mtestbench_8.sv,C:/Users/wht20/Desktop/ece385/lab3/files/mHexDriver.sv,,$unit_mControl_sv_1390707987;control,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/lab3/files/mHexDriver.sv,1719463037,systemVerilog,,C:/Users/wht20/Desktop/ece385/lab3/files/mProcessor.sv,,HexDriver,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/lab3/files/mProcessor.sv,1719461217,systemVerilog,,C:/Users/wht20/Desktop/ece385/lab3/files/mReg_4.sv,,Processor,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/lab3/files/mReg_4.sv,1719379524,systemVerilog,,C:/Users/wht20/Desktop/ece385/lab3/files/mSynchronizers.sv,,reg_8,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/lab3/files/mSynchronizers.sv,1719453758,systemVerilog,,C:/Users/wht20/Desktop/ece385/lab3/files/mripple_adder.sv,,sync_debounce,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/lab3/files/mripple_adder.sv,1719379524,systemVerilog,,C:/Users/wht20/Desktop/ece385/lab3/files/mtestbench_8.sv,,adder4;ctrlx;full_adder;ripple_adder,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/lab3/files/mtestbench_8.sv,1719778525,systemVerilog,,,,testbench8,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/lab3/multiplier/multiplier.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,uvm,,,,,,

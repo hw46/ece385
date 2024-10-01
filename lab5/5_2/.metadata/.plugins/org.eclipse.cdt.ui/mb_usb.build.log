@@ -1,0 +1,7 @@
+03:37:31 **** Clean-only build of configuration Debug for project mb_usb ****
+make clean 
+rm -rf  ./src/lw_usb/HID.o ./src/lw_usb/MAX3421E.o ./src/lw_usb/transfer.o  ./src/lw_usb_main.o ./src/platform.o  ./src/lw_usb/HID.d ./src/lw_usb/MAX3421E.d ./src/lw_usb/transfer.d  ./src/lw_usb_main.d ./src/platform.d  mb_usb.elf.size  mb_usb.elf
+' '
+
+03:37:33 Build Finished (took 1s.405ms)
+

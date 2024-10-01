@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/wht20/Desktop/ece385/lab3/files/mControl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/wht20/Desktop/ece385/lab3/files/mHexDriver.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HexDriver
+INFO: [VRFC 10-311] analyzing module nibble_to_hex
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/wht20/Desktop/ece385/lab3/files/mProcessor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Processor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/wht20/Desktop/ece385/lab3/files/mReg_4.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_8
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/wht20/Desktop/ece385/lab3/files/mSynchronizers.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sync_debounce
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/wht20/Desktop/ece385/lab3/files/mripple_adder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ripple_adder
+INFO: [VRFC 10-311] analyzing module full_adder
+INFO: [VRFC 10-311] analyzing module adder4
+INFO: [VRFC 10-311] analyzing module ctrlx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/wht20/Desktop/ece385/lab3/files/mtestbench_8.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench8

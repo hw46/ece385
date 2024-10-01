@@ -1,0 +1,51 @@
+03:37:59 **** Build of project mb_usb_hdmi_top ****
+buildplatform.bat 59746 mb_usb_hdmi_top  
+'\gnu\microblaze\lin\bin\' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'\gnu\microblaze\nt\bin\' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+'\gnuwin\bin\' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+XSDB Server Channel: tcfchan#2
+D:/Vitis/2024.1/gnu/microblaze/nt
+couldn't execute "mb-ar": no such file or directory
+
+ERROR: [Hsi 55-1545] Problem running tcl command ::sw_standalone_v9_1::post_generate : couldn't execute "mb-ar": no such file or directory
+    while executing
+"exec $archiver -d $libgloss_a _interrupt_handler.o"
+    (procedure "::sw_standalone_v9_1::post_generate" line 18)
+    invoked from within
+"::sw_standalone_v9_1::post_generate standalone"
+
+ERROR: [Hsi 55-1443] Error(s) while running TCL procedure post_generate()
+
+Failed to generate the platform.
+Reason: Failed to generate the bsp sources for domain.standalone_microblaze_0
+
+Details: couldnt execute "mb-ar": no such file or directory
+
+ERROR: [Hsi 55-1545] Problem running tcl command ::sw_standalone_v9_1::post_generate : couldnt execute "mb-ar": no such file or directory
+    while executing
+"exec $archiver -d $libgloss_a _interrupt_handler.o"
+    (procedure "::sw_standalone_v9_1::post_generate" line 18)
+    invoked from within
+"::sw_standalone_v9_1::post_generate standalone"
+
+ERROR: [Hsi 55-1443] Error(s) while running TCL procedure post_generate()
+
+    invoked from within
+"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{platform active mb_usb_hdmi_top; platform generate }}}"
+    (procedure "::tcf::send_command" line 4)
+    invoked from within
+"tcf send_command $::xsdb::curchan xsdb eval s es [list "platform active $PLATFORM_NAME; platform generate $target"]"
+    invoked from within
+"if { $iswindows == 1 } {    
+
+    set XSDB_PORT [lindex $argv 0]
+    set PLATFORM_NAME [lindex $argv 1]
+    set arglen [llength $argv]
+    set lastind..."
+    (file "D:/Vitis/2024.1\scripts\vitis\util\buildplatform.tcl" line 11)
+
+03:38:02 Build Finished (took 3s.10ms)
+

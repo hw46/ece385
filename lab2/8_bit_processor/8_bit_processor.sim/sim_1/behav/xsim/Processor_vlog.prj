@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../8bitprocessor/Control.sv" \
+"../../../../../8bitprocessor/HexDriver.sv" \
+"../../../../../8bitprocessor/Reg_4.sv" \
+"../../../../../8bitprocessor/Register_unit.sv" \
+"../../../../../8bitprocessor/Router.sv" \
+"../../../../../8bitprocessor/Synchronizers.sv" \
+"../../../../../8bitprocessor/compute.sv" \
+"../../../../../8bitprocessor/Processor.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

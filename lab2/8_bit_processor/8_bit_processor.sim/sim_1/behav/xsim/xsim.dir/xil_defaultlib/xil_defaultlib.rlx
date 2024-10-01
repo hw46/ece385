@@ -1,0 +1,13 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/wht20/Desktop/ece385/lab2/8_bit_processor/8_bit_processor.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/lab2/8bitprocessor/Control.sv,1718928708,systemVerilog,,C:/Users/wht20/Desktop/ece385/lab2/8bitprocessor/HexDriver.sv,,control,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/lab2/8bitprocessor/HexDriver.sv,1718928709,systemVerilog,,C:/Users/wht20/Desktop/ece385/lab2/8bitprocessor/Reg_4.sv,,HexDriver,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/lab2/8bitprocessor/Processor.sv,1718928709,systemVerilog,,,,Processor,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/lab2/8bitprocessor/Reg_4.sv,1718928709,systemVerilog,,C:/Users/wht20/Desktop/ece385/lab2/8bitprocessor/Register_unit.sv,,reg_4,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/lab2/8bitprocessor/Register_unit.sv,1718928709,systemVerilog,,C:/Users/wht20/Desktop/ece385/lab2/8bitprocessor/Router.sv,,register_unit,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/lab2/8bitprocessor/Router.sv,1718928709,systemVerilog,,C:/Users/wht20/Desktop/ece385/lab2/8bitprocessor/Synchronizers.sv,,router,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/lab2/8bitprocessor/Synchronizers.sv,1718928709,systemVerilog,,C:/Users/wht20/Desktop/ece385/lab2/8bitprocessor/compute.sv,,sync_debounce,,uvm,,,,,,
+C:/Users/wht20/Desktop/ece385/lab2/8bitprocessor/compute.sv,1718928708,systemVerilog,,C:/Users/wht20/Desktop/ece385/lab2/8bitprocessor/Processor.sv,,compute,,uvm,,,,,,

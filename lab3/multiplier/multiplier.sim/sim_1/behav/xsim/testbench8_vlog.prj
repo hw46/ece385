@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../files/mControl.sv" \
+"../../../../../files/mHexDriver.sv" \
+"../../../../../files/mProcessor.sv" \
+"../../../../../files/mReg_4.sv" \
+"../../../../../files/mSynchronizers.sv" \
+"../../../../../files/mripple_adder.sv" \
+"../../../../../files/mtestbench_8.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

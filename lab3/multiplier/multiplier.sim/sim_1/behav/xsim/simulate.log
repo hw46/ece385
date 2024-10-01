@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+WARNING: 0ns : none of the conditions were true for unique case from File:C:/Users/wht20/Desktop/ece385/lab3/files/mControl.sv:102
+WARNING: 90ns : none of the conditions were true for unique case from File:C:/Users/wht20/Desktop/ece385/lab3/files/mControl.sv:102
+$finish called at time : 900 ns : File "C:/Users/wht20/Desktop/ece385/lab3/files/mtestbench_8.sv" Line 75
